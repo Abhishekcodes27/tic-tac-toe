@@ -191,13 +191,6 @@
     margin: 0 auto;
 }
 
-    /* Remove the separate row layouts */
-    .game-area > .box
-    .game-area > .boxes
-    .game-area > .boss {
-        display: contents;
-    }
-
     /* Style each individual square */
     .game-area > .box1,
     .game-area > .box2,
