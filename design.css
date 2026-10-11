@@ -4,17 +4,15 @@
     overflow: hidden;
 }
 
- h2{
-      height: 50px;
+  .h2{
+    height: 50px;
     width: 100px;
     font-size: 20px;
     border: 2px solid black;
     border-radius: 15px;
     margin-top: 10px;
     text-align: center;
-
   }   
-
 
 .box{
     display: flex;
@@ -152,7 +150,7 @@
        transform: translateX(-515px);
 }
 
-    .gif {
+.gif {
     display: flex;
     align-items: center;
     justify-content: center;
