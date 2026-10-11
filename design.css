@@ -1,7 +1,6 @@
     body{
     background-color: lightcyan;
-    min-height: 100vh;
-      margin: 0;  
+    height: 100vh;
     overflow: hidden;
 }
 
@@ -12,12 +11,6 @@
         margin: 20px auto;
         gap: 4px;
 }
-
- .gif iframe {
-      width: min(90vw, 300px);
-      height: auto;
-    aspect-ratio: 300 / 254;
- }   
 
  h2{
      font-size: clamp(18px, 5vw, 28px);
@@ -161,20 +154,21 @@
        transform: translateX(-515px);
 }
 
-.gif {
+    .gif {
     display: flex;
+    align-items: center;
     justify-content: center;
-    margin: 20px auto;
-    position: static;
+    margin-left: 680px;
+    position: relative;
+    top: -750px;
 }
 
 .gif iframe {
     pointer-events: none;
-    max-width: 100%;
 }
 
 #result {
-    font-size: clamp(18px, 5vw, 28px);
+    font-size: 35px;
     color: green;
     text-align: center;
     margin-top: 15px;
