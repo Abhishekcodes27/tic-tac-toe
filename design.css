@@ -2,7 +2,7 @@
     background-color: lightcyan;
     min-height: 100vh;
       margin: 0;  
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 /*  for mobile screen */
@@ -12,12 +12,6 @@
         margin: 20px auto;
         gap: 4px;
 }
-
-    .game-area > .box > div,
-    .game-area > .boxes > div,
-    .game-area > .boss > div {
-       border-radius: 10px;
-    }
 
  .gif iframe {
       width: min(90vw, 300px);
@@ -194,28 +188,4 @@
     width: min(90vw, 360px);
     margin: 30px auto;
 }
-
-/* Make the three existing containers transparent to the grid */
-    .game-area > .box,
-    .game-area > .boxes,
-    .game-area > .boss{
-        display: contents;
-    }
-
-    /* Style each individual square */
-    .game-area > .box > div,
-    .game-area > .boxes > div,
-    .game-area > .boss > div {
-     box-sizing: border-box;
-        width: 100%;
-        min-width: 0;
-        aspect-ratio: 1 / 1;
-        height: auto;
-        margin: 0;
-       padding: 5px;
-    position: static;
-    transform: none;
-    border: 2px solid black;
-    border-radius: 15px;
-    }
 }
