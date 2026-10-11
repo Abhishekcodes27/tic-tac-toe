@@ -4,6 +4,16 @@
     overflow: hidden;
 }
 
+/*  for mobile screen */
+@media screen(max-width: 600px;){
+  .box,
+    .boxes,
+    .boss {
+        margin: 0;
+        transform: none;
+    }
+}
+
  .h2{
     height: 50px;
     width: 100px;
