@@ -4,13 +4,6 @@
     overflow: hidden;
 }
 
-/*  for mobile screen */
-@media screen and (max-width: 600px;) {
-  .game-area {
-        width: min(90vw, 330px);
-        margin: 20px auto;
-}
-
  h2{
       height: 50px;
     width: 100px;
@@ -177,6 +170,4 @@
     color: green;
     text-align: center;
     margin-top: 15px;
-}
-    
 }
