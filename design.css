@@ -180,3 +180,39 @@
     text-align: center;
     margin-top: 15px;
 }
+
+/* Arrange all nine boxes in a 3x3 grid */
+.game-area {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    width: min(90vw, 360px);
+    aspect-ratio: 1;
+    margin: 0 auto;
+}
+
+    /* Remove the separate row layouts */
+    .game-area > .box
+    .game-area > .boxes
+    .game-area > .boss {
+        display: contents;
+    }
+
+    /* Style each individual square */
+    .game-area > .box1,
+    .game-area > .box2,
+    .game-area > .box3,
+    .game-area > .boxes > .box4,
+    .game-area > .boxes > .box5,
+    .game-area > .boxes > .box6,
+    .game-area > .boss > .box7,
+    .game-area > .boss > .box8,
+    .game-area > .boss > .box9 {
+        min-width: 0;
+        aspect-ratio: 1;
+    }
+
+
+
+
+    
